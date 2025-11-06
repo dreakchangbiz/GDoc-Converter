@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDoc Converter - 儀表板</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">GDoc Converter</a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">轉換</a></li>
+                    <li><a href="dashboard.html" class="active">儀表板</a></li>
+                </ul>
+            </nav>
+            <div class="user-auth">
+                <div class="user-profile">
+                    <span class="user-email">user@example.com</span>
+                    <button id="logout-btn" class="btn btn-secondary btn-sm">登出</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            
+            <section class="page-title-section">
+                <h1>儀表板</h1>
+                <p>查看您最近的轉換歷史記錄</p>
+            </section>
+
+            <section class="dashboard-content">
+                
+                <div class="history-list">
+
+                    <div class="history-card">
+                        <div class="card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" class="file-icon">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                            </svg>
+                        </div>
+                        <div class="card-info">
+                            <span class="file-name">Monthly_Report_Final_v2.pdf</span>
+                            <span class="timestamp">轉換於 2024年10月28日 14:30</span>
+                        </div>
+                        <div class="card-actions">
+                            <a href="#" class="btn btn-primary btn-sm" target="_blank">打開 GDoc</a>
+                        </div>
+                    </div>
+
+                    <div class="history-card">
+                        <div class="card-icon">
+                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" class="file-icon">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                            </svg>
+                        </div>
+                        <div class="card-info">
+                            <span class="file-name">Contract_Vendor_XYZ.pdf</span>
+                            <span class="timestamp">轉換於 2024年10月27日 09:15</span>
+                        </div>
+                        <div class="card-actions">
+                            <a href="#" class="btn btn-primary btn-sm" target="_blank">打開 GDoc</a>
+                        </div>
+                    </div>
+
+                    </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 GDoc Converter. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/common.js"></script>
+    </body>
+</html>
